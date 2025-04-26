@@ -14,6 +14,10 @@ from react_agent.configuration import Configuration
 from react_agent.state import InputState, State
 from react_agent.tools import TOOLS
 from react_agent.utils import load_chat_model
+from react_agent.debug import log_diagnostic_info
+
+# Log diagnostic information at module import time
+log_diagnostic_info()
 
 # Define the function that calls the model
 
